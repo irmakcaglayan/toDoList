@@ -13,7 +13,7 @@ public:
 	void addTask(const string& task)
 	{
 		tasks.push_back(task);
-		cout << "Task added: " << task endl;
+		cout << "Task added: " << task << endl;
 	}
 	void removeTask(int index)
 	{
